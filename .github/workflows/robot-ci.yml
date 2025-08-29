@@ -13,17 +13,26 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      # Setup Python
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.11"
 
+      # Setup Node.js (necessário para npx/playwright)
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "20"
+
+      # Install dependencies
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-          rfbrowser init --skip-browsers
-          npx playwright install
+          rfbrowser init --yes  # inicializa o BrowserLibrary
+          npx playwright install  # baixa os browsers necessários
 
+      # Run Robot Framework tests
       - name: Run Robot Framework tests
         run: |
           robot --outputdir results \
@@ -34,6 +43,7 @@ jobs:
                 --logtitle "Log de Testes OrangeHRM" \
                 tests/
 
+      # Upload results
       - name: Upload results
         uses: actions/upload-artifact@v4
         with:
