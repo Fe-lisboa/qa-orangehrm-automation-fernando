@@ -22,6 +22,7 @@ jobs:
         run: |
           pip install -r requirements.txt
           rfbrowser init --skip-browsers
+          npx playwright install
 
       - name: Run Robot Framework tests
         run: |
