@@ -1,0 +1,43 @@
+name: Robot Framework CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          rfbrowser init --skip-browsers
+
+      - name: Run Robot Framework tests
+        run: |
+          robot --outputdir results \
+                --report report.html \
+                --log log.html \
+                --output output.xml \
+                --reporttitle "Relatório de Testes OrangeHRM" \
+                --logtitle "Log de Testes OrangeHRM" \
+                tests/
+
+      - name: Upload Robot Framework Results
+        uses: actions/upload-artifact@v3
+        with:
+          name: robot-results
+          path: |
+            results/report.html
+            results/log.html
+            results/output.xml

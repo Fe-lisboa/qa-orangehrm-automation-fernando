@@ -1,0 +1,308 @@
+{"level":30,"time":"2025-08-29T19:08:56.208Z","pid":25232,"hostname":"PRIME000613","msg":"Listening on 127.0.0.1:50662"}
+(node:25232) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-08-29T19:08:56.759Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-08-29T19:08:57.844Z","pid":25232,"hostname":"PRIME000613","msg":"Adding browser to stack: chromium, version: 136.0.7103.25"}
+{"level":30,"time":"2025-08-29T19:08:57.844Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-08-29T19:08:57.844Z","pid":25232,"hostname":"PRIME000613","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-08-29T19:08:57.849Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-08-29T19:08:57.859Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method newContext"}
+{"level":30,"time":"2025-08-29T19:08:57.865Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-08-29T19:08:57.849Z","pid":25232,"hostname":"PRIME000613","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-08-29T19:08:57.849Z","pid":25232,"hostname":"PRIME000613","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-08-29T19:08:57.850Z","pid":25232,"hostname":"PRIME000613","msg":"Trace file: "}
+{"level":30,"time":"2025-08-29T19:08:57.859Z","pid":25232,"hostname":"PRIME000613","msg":"Changed active context"}
+{"level":30,"time":"2025-08-29T19:08:57.865Z","pid":25232,"hostname":"PRIME000613","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-08-29T19:08:58.215Z","pid":25232,"hostname":"PRIME000613","msg":"Video path: undefined"}
+{"level":30,"time":"2025-08-29T19:08:58.216Z","pid":25232,"hostname":"PRIME000613","msg":"Changed active page"}
+{"level":30,"time":"2025-08-29T19:09:01.202Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method newPage"}
+{"level":30,"time":"2025-08-29T19:09:01.209Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:01.210Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with input[name=\"username\"] in page."}
+{"level":30,"time":"2025-08-29T19:09:02.069Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:02.074Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:02.074Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with input[name=\"password\"] in page."}
+{"level":30,"time":"2025-08-29T19:09:02.094Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:02.097Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method click"}
+{"level":30,"time":"2025-08-29T19:09:02.098Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with button[type=\"submit\"] in page."}
+{"level":30,"time":"2025-08-29T19:09:02.996Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method click"}
+{"level":30,"time":"2025-08-29T19:09:03.000Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-29T19:09:03.000Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with h6:has-text(\"Dashboard\") in page."}
+{"level":30,"time":"2025-08-29T19:09:03.341Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-29T19:09:03.346Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method click"}
+{"level":30,"time":"2025-08-29T19:09:03.346Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with text=PIM in page."}
+{"level":30,"time":"2025-08-29T19:09:04.203Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method click"}
+{"level":30,"time":"2025-08-29T19:09:04.210Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-29T19:09:04.210Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with text=Employee Information in page."}
+{"level":30,"time":"2025-08-29T19:09:04.550Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-29T19:09:04.554Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method click"}
+{"level":30,"time":"2025-08-29T19:09:04.554Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with text=Add Employee in page."}
+{"level":30,"time":"2025-08-29T19:09:05.058Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method click"}
+{"level":30,"time":"2025-08-29T19:09:05.062Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:05.062Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with input[name=\"firstName\"] in page."}
+{"level":30,"time":"2025-08-29T19:09:05.392Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:05.395Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:05.395Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with input[name=\"lastName\"] in page."}
+{"level":30,"time":"2025-08-29T19:09:05.406Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:05.409Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method click"}
+{"level":30,"time":"2025-08-29T19:09:05.409Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with button:has-text(\"Save\") in page."}
+{"level":30,"time":"2025-08-29T19:09:05.824Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method click"}
+{"level":30,"time":"2025-08-29T19:09:05.826Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-29T19:09:05.826Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with h6:has-text(\"Personal Details\") in page."}
+{"level":30,"time":"2025-08-29T19:09:10.269Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-29T19:09:10.273Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-08-29T19:09:10.306Z","pid":25232,"hostname":"PRIME000613","msg":"Removed page=67a971c4-7bd0-46db-b7c2-0bd0501804a8 from context=89f71045-47c0-4c8e-9d65-48ad680dea0e page stack"}
+{"level":30,"time":"2025-08-29T19:09:10.591Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2025-08-29T19:09:10.595Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:10.595Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12226:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13122:59)
+    at PlaywrightServer.setTimeout (C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13370:57)
+    at Object.onReceiveHalfClose (C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-08-29T19:09:10.664Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:10.664Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:10.676Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:10.676Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:10.679Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:10.679Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:10.686Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-08-29T19:09:11.014Z","pid":25232,"hostname":"PRIME000613","msg":"Adding browser to stack: chromium, version: 136.0.7103.25"}
+{"level":30,"time":"2025-08-29T19:09:11.014Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-08-29T19:09:11.014Z","pid":25232,"hostname":"PRIME000613","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-08-29T19:09:11.027Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-08-29T19:09:11.027Z","pid":25232,"hostname":"PRIME000613","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-08-29T19:09:11.027Z","pid":25232,"hostname":"PRIME000613","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-08-29T19:09:11.027Z","pid":25232,"hostname":"PRIME000613","msg":"Trace file: "}
+{"level":30,"time":"2025-08-29T19:09:11.039Z","pid":25232,"hostname":"PRIME000613","msg":"Changed active context"}
+{"level":30,"time":"2025-08-29T19:09:11.039Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method newContext"}
+{"level":30,"time":"2025-08-29T19:09:11.046Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-08-29T19:09:11.046Z","pid":25232,"hostname":"PRIME000613","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-08-29T19:09:11.282Z","pid":25232,"hostname":"PRIME000613","msg":"Video path: undefined"}
+{"level":30,"time":"2025-08-29T19:09:11.282Z","pid":25232,"hostname":"PRIME000613","msg":"Changed active page"}
+{"level":30,"time":"2025-08-29T19:09:14.299Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method newPage"}
+{"level":30,"time":"2025-08-29T19:09:14.305Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:14.305Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with input[name=\"username\"] in page."}
+{"level":30,"time":"2025-08-29T19:09:15.174Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:15.178Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:15.178Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with input[name=\"password\"] in page."}
+{"level":30,"time":"2025-08-29T19:09:15.190Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:15.193Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method click"}
+{"level":30,"time":"2025-08-29T19:09:15.193Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with button[type=\"submit\"] in page."}
+{"level":30,"time":"2025-08-29T19:09:16.127Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method click"}
+{"level":30,"time":"2025-08-29T19:09:16.131Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-29T19:09:16.131Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with h6:has-text(\"Dashboard\") in page."}
+{"level":30,"time":"2025-08-29T19:09:16.468Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-29T19:09:16.472Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-08-29T19:09:16.511Z","pid":25232,"hostname":"PRIME000613","msg":"Removed page=77558d55-8d7f-4737-9f2f-cf005f51466e from context=346c47b5-675f-4989-8bb7-4f865cc5930a page stack"}
+{"level":30,"time":"2025-08-29T19:09:16.786Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2025-08-29T19:09:16.790Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:16.790Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:16.794Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:16.794Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:16.797Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-08-29T19:09:17.105Z","pid":25232,"hostname":"PRIME000613","msg":"Adding browser to stack: chromium, version: 136.0.7103.25"}
+{"level":30,"time":"2025-08-29T19:09:17.105Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-08-29T19:09:17.105Z","pid":25232,"hostname":"PRIME000613","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-08-29T19:09:17.112Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-08-29T19:09:17.112Z","pid":25232,"hostname":"PRIME000613","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-08-29T19:09:17.112Z","pid":25232,"hostname":"PRIME000613","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-08-29T19:09:17.112Z","pid":25232,"hostname":"PRIME000613","msg":"Trace file: "}
+{"level":30,"time":"2025-08-29T19:09:17.122Z","pid":25232,"hostname":"PRIME000613","msg":"Changed active context"}
+{"level":30,"time":"2025-08-29T19:09:17.122Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method newContext"}
+{"level":30,"time":"2025-08-29T19:09:17.128Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-08-29T19:09:17.128Z","pid":25232,"hostname":"PRIME000613","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-08-29T19:09:17.392Z","pid":25232,"hostname":"PRIME000613","msg":"Video path: undefined"}
+{"level":30,"time":"2025-08-29T19:09:17.392Z","pid":25232,"hostname":"PRIME000613","msg":"Changed active page"}
+{"level":30,"time":"2025-08-29T19:09:20.167Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method newPage"}
+{"level":30,"time":"2025-08-29T19:09:20.171Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:20.172Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with input[name=\"username\"] in page."}
+{"level":30,"time":"2025-08-29T19:09:21.026Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:21.031Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:21.031Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with input[name=\"password\"] in page."}
+{"level":30,"time":"2025-08-29T19:09:21.042Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:21.045Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method click"}
+{"level":30,"time":"2025-08-29T19:09:21.045Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with button[type=\"submit\"] in page."}
+{"level":30,"time":"2025-08-29T19:09:21.584Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method click"}
+{"level":30,"time":"2025-08-29T19:09:21.587Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-29T19:09:21.587Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with div.oxd-alert-content--error in page."}
+{"level":30,"time":"2025-08-29T19:09:21.879Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-29T19:09:21.883Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method getText"}
+{"level":30,"time":"2025-08-29T19:09:21.883Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with div.oxd-alert-content--error in page."}
+{"level":30,"time":"2025-08-29T19:09:21.914Z","pid":25232,"hostname":"PRIME000613","msg":"Retrieved text for element div.oxd-alert-content--error containing Invalid credentials"}
+{"level":30,"time":"2025-08-29T19:09:21.914Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method getText"}
+{"level":30,"time":"2025-08-29T19:09:21.918Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-08-29T19:09:21.943Z","pid":25232,"hostname":"PRIME000613","msg":"Removed page=89bb5bd3-786e-431d-a2e7-d8df9d8ba572 from context=371da654-d321-4cdf-ad11-55c54a0c9b1a page stack"}
+{"level":30,"time":"2025-08-29T19:09:22.193Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2025-08-29T19:09:22.197Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:22.197Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:22.203Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:22.204Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:22.209Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-08-29T19:09:22.505Z","pid":25232,"hostname":"PRIME000613","msg":"Adding browser to stack: chromium, version: 136.0.7103.25"}
+{"level":30,"time":"2025-08-29T19:09:22.505Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-08-29T19:09:22.505Z","pid":25232,"hostname":"PRIME000613","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-08-29T19:09:22.512Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-08-29T19:09:22.513Z","pid":25232,"hostname":"PRIME000613","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-08-29T19:09:22.513Z","pid":25232,"hostname":"PRIME000613","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-08-29T19:09:22.513Z","pid":25232,"hostname":"PRIME000613","msg":"Trace file: "}
+{"level":30,"time":"2025-08-29T19:09:22.523Z","pid":25232,"hostname":"PRIME000613","msg":"Changed active context"}
+{"level":30,"time":"2025-08-29T19:09:22.524Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method newContext"}
+{"level":30,"time":"2025-08-29T19:09:22.530Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-08-29T19:09:22.530Z","pid":25232,"hostname":"PRIME000613","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-08-29T19:09:22.787Z","pid":25232,"hostname":"PRIME000613","msg":"Video path: undefined"}
+{"level":30,"time":"2025-08-29T19:09:22.787Z","pid":25232,"hostname":"PRIME000613","msg":"Changed active page"}
+{"level":30,"time":"2025-08-29T19:09:25.810Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method newPage"}
+{"level":30,"time":"2025-08-29T19:09:25.817Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:25.817Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with input[name=\"username\"] in page."}
+{"level":30,"time":"2025-08-29T19:09:26.694Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:26.699Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:26.700Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with input[name=\"password\"] in page."}
+{"level":30,"time":"2025-08-29T19:09:26.713Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:26.716Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method click"}
+{"level":30,"time":"2025-08-29T19:09:26.716Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with button[type=\"submit\"] in page."}
+{"level":30,"time":"2025-08-29T19:09:27.546Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method click"}
+{"level":30,"time":"2025-08-29T19:09:27.550Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-29T19:09:27.550Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with div.oxd-alert-content--error in page."}
+{"level":30,"time":"2025-08-29T19:09:27.835Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-29T19:09:27.838Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method getText"}
+{"level":30,"time":"2025-08-29T19:09:27.838Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with div.oxd-alert-content--error in page."}
+{"level":30,"time":"2025-08-29T19:09:27.868Z","pid":25232,"hostname":"PRIME000613","msg":"Retrieved text for element div.oxd-alert-content--error containing Invalid credentials"}
+{"level":30,"time":"2025-08-29T19:09:27.868Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method getText"}
+{"level":30,"time":"2025-08-29T19:09:27.872Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-08-29T19:09:27.903Z","pid":25232,"hostname":"PRIME000613","msg":"Removed page=fa883173-1423-42c5-9ad6-642347199b88 from context=5194a3d0-a4df-46ac-a8c1-2ce34bc01cee page stack"}
+{"level":30,"time":"2025-08-29T19:09:28.178Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2025-08-29T19:09:28.181Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:28.181Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:28.186Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:28.186Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:28.192Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-08-29T19:09:28.503Z","pid":25232,"hostname":"PRIME000613","msg":"Adding browser to stack: chromium, version: 136.0.7103.25"}
+{"level":30,"time":"2025-08-29T19:09:28.503Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-08-29T19:09:28.503Z","pid":25232,"hostname":"PRIME000613","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-08-29T19:09:28.510Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-08-29T19:09:28.510Z","pid":25232,"hostname":"PRIME000613","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-08-29T19:09:28.510Z","pid":25232,"hostname":"PRIME000613","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-08-29T19:09:28.510Z","pid":25232,"hostname":"PRIME000613","msg":"Trace file: "}
+{"level":30,"time":"2025-08-29T19:09:28.528Z","pid":25232,"hostname":"PRIME000613","msg":"Changed active context"}
+{"level":30,"time":"2025-08-29T19:09:28.528Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method newContext"}
+{"level":30,"time":"2025-08-29T19:09:28.534Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-08-29T19:09:28.534Z","pid":25232,"hostname":"PRIME000613","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-08-29T19:09:28.776Z","pid":25232,"hostname":"PRIME000613","msg":"Video path: undefined"}
+{"level":30,"time":"2025-08-29T19:09:28.776Z","pid":25232,"hostname":"PRIME000613","msg":"Changed active page"}
+{"level":30,"time":"2025-08-29T19:09:31.722Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method newPage"}
+{"level":30,"time":"2025-08-29T19:09:31.726Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method click"}
+{"level":30,"time":"2025-08-29T19:09:31.726Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with button[type=\"submit\"] in page."}
+{"level":30,"time":"2025-08-29T19:09:32.640Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method click"}
+{"level":30,"time":"2025-08-29T19:09:32.644Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-29T19:09:32.644Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with css=input[name='username'] >> xpath=../following-sibling::span[contains(@class,'oxd-input-field-error-message')] in page."}
+{"level":30,"time":"2025-08-29T19:09:32.650Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-29T19:09:32.653Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method getText"}
+{"level":30,"time":"2025-08-29T19:09:32.654Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with css=input[name='username'] >> xpath=../following-sibling::span[contains(@class,'oxd-input-field-error-message')] in page."}
+{"level":30,"time":"2025-08-29T19:09:32.676Z","pid":25232,"hostname":"PRIME000613","msg":"Retrieved text for element css=input[name='username'] >> xpath=../following-sibling::span[contains(@class,'oxd-input-field-error-message')] containing Required"}
+{"level":30,"time":"2025-08-29T19:09:32.676Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method getText"}
+{"level":30,"time":"2025-08-29T19:09:32.681Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-29T19:09:32.681Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with css=input[name='password'] >> xpath=../following-sibling::span[contains(@class,'oxd-input-field-error-message')] in page."}
+{"level":30,"time":"2025-08-29T19:09:32.687Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-29T19:09:32.692Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method getText"}
+{"level":30,"time":"2025-08-29T19:09:32.692Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with css=input[name='password'] >> xpath=../following-sibling::span[contains(@class,'oxd-input-field-error-message')] in page."}
+{"level":30,"time":"2025-08-29T19:09:32.706Z","pid":25232,"hostname":"PRIME000613","msg":"Retrieved text for element css=input[name='password'] >> xpath=../following-sibling::span[contains(@class,'oxd-input-field-error-message')] containing Required"}
+{"level":30,"time":"2025-08-29T19:09:32.706Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method getText"}
+{"level":30,"time":"2025-08-29T19:09:32.709Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-08-29T19:09:32.732Z","pid":25232,"hostname":"PRIME000613","msg":"Removed page=ab45ff59-7444-4a60-85d2-b11bb4545c07 from context=71bf8ea3-660f-4408-9e82-cd095c30eb79 page stack"}
+{"level":30,"time":"2025-08-29T19:09:32.980Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2025-08-29T19:09:32.984Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:32.984Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12226:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13122:59)
+    at PlaywrightServer.setTimeout (C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13370:57)
+    at Object.onReceiveHalfClose (C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-08-29T19:09:33.024Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:33.024Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:33.032Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:33.032Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:33.036Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:33.036Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:33.042Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-08-29T19:09:33.364Z","pid":25232,"hostname":"PRIME000613","msg":"Adding browser to stack: chromium, version: 136.0.7103.25"}
+{"level":30,"time":"2025-08-29T19:09:33.364Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-08-29T19:09:33.364Z","pid":25232,"hostname":"PRIME000613","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-08-29T19:09:33.371Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method newContext"}
+{"level":30,"time":"2025-08-29T19:09:33.372Z","pid":25232,"hostname":"PRIME000613","msg":"Creating new context with options: {\"acceptDownloads\":true,\"bypassCSP\":false,\"forcedColors\":\"none\",\"ignoreHTTPSErrors\":false,\"javaScriptEnabled\":true,\"offline\":false,\"reducedMotion\":\"no-preference\",\"serviceWorkers\":\"allow\",\"viewport\":{\"height\":720,\"width\":1280}}"}
+{"level":30,"time":"2025-08-29T19:09:33.372Z","pid":25232,"hostname":"PRIME000613","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-08-29T19:09:33.372Z","pid":25232,"hostname":"PRIME000613","msg":"Trace file: "}
+{"level":30,"time":"2025-08-29T19:09:33.390Z","pid":25232,"hostname":"PRIME000613","msg":"Changed active context"}
+{"level":30,"time":"2025-08-29T19:09:33.391Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method newContext"}
+{"level":30,"time":"2025-08-29T19:09:33.396Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-08-29T19:09:33.396Z","pid":25232,"hostname":"PRIME000613","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-08-29T19:09:33.646Z","pid":25232,"hostname":"PRIME000613","msg":"Video path: undefined"}
+{"level":30,"time":"2025-08-29T19:09:33.646Z","pid":25232,"hostname":"PRIME000613","msg":"Changed active page"}
+{"level":30,"time":"2025-08-29T19:09:36.538Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method newPage"}
+{"level":30,"time":"2025-08-29T19:09:36.544Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:36.544Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with input[name=\"username\"] in page."}
+{"level":30,"time":"2025-08-29T19:09:37.412Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:37.417Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:37.417Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with input[name=\"password\"] in page."}
+{"level":30,"time":"2025-08-29T19:09:37.432Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:37.436Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method click"}
+{"level":30,"time":"2025-08-29T19:09:37.436Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with button[type=\"submit\"] in page."}
+{"level":30,"time":"2025-08-29T19:09:38.280Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method click"}
+{"level":30,"time":"2025-08-29T19:09:38.285Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-29T19:09:38.286Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with h6:has-text(\"Dashboard\") in page."}
+{"level":30,"time":"2025-08-29T19:09:38.688Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-29T19:09:38.692Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method click"}
+{"level":30,"time":"2025-08-29T19:09:38.692Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with text=PIM in page."}
+{"level":30,"time":"2025-08-29T19:09:39.539Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method click"}
+{"level":30,"time":"2025-08-29T19:09:39.544Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-29T19:09:39.545Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with text=Employee Information in page."}
+{"level":30,"time":"2025-08-29T19:09:40.389Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-29T19:09:40.392Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:40.392Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with //label[text()=\"Employee Name\"]/../following-sibling::div//input in page."}
+{"level":30,"time":"2025-08-29T19:09:40.408Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method fillText"}
+{"level":30,"time":"2025-08-29T19:09:40.411Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method click"}
+{"level":30,"time":"2025-08-29T19:09:40.411Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with button:has-text(\"Search\") in page."}
+{"level":30,"time":"2025-08-29T19:09:40.467Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method click"}
+{"level":30,"time":"2025-08-29T19:09:40.471Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method click"}
+{"level":30,"time":"2025-08-29T19:09:40.471Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with text=John Doe >> nth=0 in page."}
+{"level":30,"time":"2025-08-29T19:09:41.206Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method click"}
+{"level":30,"time":"2025-08-29T19:09:41.209Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method waitForElementState"}
+{"level":30,"time":"2025-08-29T19:09:41.209Z","pid":25232,"hostname":"PRIME000613","msg":"Strict mode is enabled, find Locator with text=John Doe >> nth=0 in page."}
+{"level":30,"time":"2025-08-29T19:09:42.137Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method waitForElementState"}
+{"level":30,"time":"2025-08-29T19:09:42.141Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method closeBrowser"}
+{"level":30,"time":"2025-08-29T19:09:42.174Z","pid":25232,"hostname":"PRIME000613","msg":"Removed page=37998e23-264d-4de4-864c-7cf587bdb2b6 from context=aaebc8e5-0c7e-41ce-93ac-cd428359714d page stack"}
+{"level":30,"time":"2025-08-29T19:09:42.476Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method closeBrowser"}
+{"level":30,"time":"2025-08-29T19:09:42.479Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:42.479Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method getBrowserCatalog"}
+================= Original suppressed error =================
+Error: Browser has been closed.
+    at PlaywrightState.getActiveBrowser (C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:12226:15)
+    at PlaywrightServer.getActiveBrowser (C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13122:59)
+    at PlaywrightServer.setTimeout (C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js:13370:57)
+    at Object.onReceiveHalfClose (C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server.js:1461:25)
+    at BaseServerInterceptingCall.maybePushNextMessage (C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:575:31)
+    at BaseServerInterceptingCall.handleEndEvent (C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:615:14)
+    at ServerHttp2Stream.<anonymous> (C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\node_modules\@grpc\grpc-js\build\src\server-interceptors.js:382:18)
+    at ServerHttp2Stream.emit (node:events:530:35)
+    at endReadableNT (node:internal/streams/readable:1698:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+=============================================================
+{"level":30,"time":"2025-08-29T19:09:42.515Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:42.515Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2025-08-29T19:09:42.896Z","pid":25232,"hostname":"PRIME000613","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2025-08-29T19:09:42.897Z","pid":25232,"hostname":"PRIME000613","msg":"End of node method closeAllBrowsers"}
