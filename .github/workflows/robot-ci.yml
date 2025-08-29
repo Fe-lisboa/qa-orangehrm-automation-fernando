@@ -29,8 +29,8 @@ jobs:
       - name: Install dependencies
         run: |
           pip install -r requirements.txt
-          rfbrowser init --yes  # inicializa o BrowserLibrary
-          npx playwright install  # baixa os browsers necessários
+          rfbrowser init  # inicializa o BrowserLibrary
+           npx playwright install chromium
 
       # Run Robot Framework tests
       - name: Run Robot Framework tests
