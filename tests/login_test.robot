@@ -28,3 +28,10 @@ Login Empty Fields
     [Documentation]    Testa login sem preencher usuário e senha
     Login With Empty Fields
     [Teardown]    Close OrangeHRM
+
+Logout From OrangeHRM
+    [Documentation]    Realiza logout do sistema
+    Login With Valid Credentials
+    Click    xpath=//p[@class="oxd-userdropdown-name"]
+    Click    text=Logout
+    Wait For Elements State    input[name="username"]    visible

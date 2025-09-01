@@ -1,23 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-08-29T14:16:56.034217" rpa="false" schemaversion="5">
-<suite id="s1" name="Tests" source="C:\Users\user\Documents\orange\robot-orangehrm\robot-orangehrm\tests">
-<suite id="s1-s1" name="Add Employee Test" source="C:\Users\user\Documents\orange\robot-orangehrm\robot-orangehrm\tests\add_employee_test.robot">
-<test id="s1-s1-t1" name="Add New Employee" line="7">
+<robot generator="Robot 7.2.2 (Python 3.13.3 on win32)" generated="2025-09-01T13:08:06.565024" rpa="false" schemaversion="5">
+<suite id="s1" name="Login Test" source="C:\Users\user\Documents\orange\robot-orangehrm\qa-orangehrm-automation-fernando\tests\login_test.robot">
+<test id="s1-t1" name="Logout From OrangeHRM" line="32">
 <kw name="Login With Valid Credentials" owner="LoginPage">
 <kw name="Open OrangeHRM" owner="Browser">
 <kw name="New Browser" owner="Browser">
-<msg time="2025-08-29T14:16:56.255035" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\user\\Documents\\orange\\robot-orangehrm\\robot-orangehrm\\browser\\traces\\temp\\08bf01c0-dae6-4229-88d3-54d7f546e9ba"}</msg>
-<msg time="2025-08-29T14:16:56.310103" level="INFO">Starting Browser process C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:52137</msg>
-<msg time="2025-08-29T14:16:57.799402" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\user\\Documents\\orange\\robot-orangehrm\\robot-orangehrm\\browser\\traces\\temp\\08bf01c0-dae6-4229-88d3-54d7f546e9ba"}</msg>
+<msg time="2025-09-01T13:08:06.775095" level="INFO">{"browser": "chromium", "headless": true, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\user\\Documents\\orange\\robot-orangehrm\\qa-orangehrm-automation-fernando\\browser\\traces\\temp\\fba37372-33d0-4f56-a35e-5c8b0afc179d"}</msg>
+<msg time="2025-09-01T13:08:06.826210" level="INFO">Starting Browser process C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\site-packages\Browser\wrapper\index.js using at 127.0.0.1:59169</msg>
+<msg time="2025-09-01T13:08:08.173654" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":true,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\user\\Documents\\orange\\robot-orangehrm\\qa-orangehrm-automation-fernando\\browser\\traces\\temp\\fba37372-33d0-4f56-a35e-5c8b0afc179d"}</msg>
 <arg>chromium</arg>
-<arg>headless=${false}</arg>
+<arg>headless=${true}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2025-08-29T14:16:56.254294" elapsed="1.545388"/>
+<status status="PASS" start="2025-09-01T13:08:06.773910" elapsed="1.400043"/>
 </kw>
 <kw name="New Context" owner="Browser">
-<msg time="2025-08-29T14:16:57.802947" level="INFO">{
+<msg time="2025-09-01T13:08:08.176987" level="INFO">{
   "acceptDownloads": true,
   "bypassCSP": false,
   "forcedColors": "none",
@@ -31,425 +30,108 @@
     "width": 1280
   }
 }</msg>
-<msg time="2025-08-29T14:16:57.832956" level="INFO">Successfully created context. </msg>
-<msg time="2025-08-29T14:16:57.833089" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
+<msg time="2025-09-01T13:08:08.203130" level="INFO">Successfully created context. </msg>
+<msg time="2025-09-01T13:08:08.203339" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new BrowserContext with specified options.</doc>
-<status status="PASS" start="2025-08-29T14:16:57.800044" elapsed="0.033209"/>
+<status status="PASS" start="2025-09-01T13:08:08.174399" elapsed="0.029090"/>
 </kw>
 <kw name="New Page" owner="Browser">
-<msg time="2025-08-29T14:17:01.059570" level="INFO">Successfully initialized new page object and opened url: https://opensource-demo.orangehrmlive.com</msg>
+<msg time="2025-09-01T13:08:13.595944" level="INFO">Successfully initialized new page object and opened url: https://opensource-demo.orangehrmlive.com</msg>
 <arg>${URL}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<status status="PASS" start="2025-08-29T14:16:57.833586" elapsed="3.226169"/>
+<status status="PASS" start="2025-09-01T13:08:08.203875" elapsed="5.392272"/>
 </kw>
 <kw name="Set Browser Timeout" owner="Browser">
 <arg>10s</arg>
 <tag>Config</tag>
 <tag>Setter</tag>
 <doc>Sets the timeout used by most input and getter keywords.</doc>
-<status status="PASS" start="2025-08-29T14:17:01.059928" elapsed="0.000594"/>
+<status status="PASS" start="2025-09-01T13:08:13.596303" elapsed="0.000521"/>
 </kw>
-<status status="PASS" start="2025-08-29T14:16:56.253706" elapsed="4.806907"/>
+<status status="PASS" start="2025-09-01T13:08:06.773148" elapsed="6.823761"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2025-08-29T14:17:01.061139" level="INFO">Fills the text 'Admin' in the given field.</msg>
+<msg time="2025-09-01T13:08:13.597383" level="INFO">Fills the text 'admin' in the given field.</msg>
 <arg>input[name="username"]</arg>
 <arg>${USERNAME}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-08-29T14:17:01.060721" elapsed="0.890033"/>
+<status status="PASS" start="2025-09-01T13:08:13.597009" elapsed="0.345356"/>
 </kw>
 <kw name="Fill Text" owner="Browser">
-<msg time="2025-08-29T14:17:01.952794" level="INFO">Fills the text 'admin123' in the given field.</msg>
+<msg time="2025-09-01T13:08:13.943047" level="INFO">Fills the text 'admin123' in the given field.</msg>
 <arg>input[name="password"]</arg>
 <arg>${PASSWORD}</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-08-29T14:17:01.951205" elapsed="0.023317"/>
+<status status="PASS" start="2025-09-01T13:08:13.942547" elapsed="0.015362"/>
 </kw>
 <kw name="Click" owner="Browser">
-<msg time="2025-08-29T14:17:01.975215" level="INFO">Clicks the element 'button[type="submit"]'.</msg>
+<msg time="2025-09-01T13:08:13.958570" level="INFO">Clicks the element 'button[type="submit"]'.</msg>
 <arg>button[type="submit"]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-08-29T14:17:01.974725" elapsed="0.985535"/>
+<status status="PASS" start="2025-09-01T13:08:13.958104" elapsed="1.253147"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-08-29T14:17:03.335478" level="INFO">Waited for Element with selector h6:has-text("Dashboard") at state visible</msg>
+<msg time="2025-09-01T13:08:15.589366" level="INFO">Waited for Element with selector h6:has-text("Dashboard") at state visible</msg>
 <arg>h6:has-text("Dashboard")</arg>
 <arg>visible</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-08-29T14:17:02.960439" elapsed="0.375192"/>
+<status status="PASS" start="2025-09-01T13:08:15.211458" elapsed="0.378093"/>
 </kw>
-<status status="PASS" start="2025-08-29T14:16:56.253258" elapsed="7.082493"/>
+<status status="PASS" start="2025-09-01T13:08:06.772714" elapsed="8.816951"/>
 </kw>
-<kw name="Go To PIM" owner="PIMPage">
 <kw name="Click" owner="Browser">
-<msg time="2025-08-29T14:17:03.337100" level="INFO">Clicks the element 'text=PIM'.</msg>
-<arg>text=PIM</arg>
+<msg time="2025-09-01T13:08:15.590624" level="INFO">Clicks the element 'xpath=//p[@class="oxd-userdropdown-name"]'.</msg>
+<arg>xpath=//p[@class="oxd-userdropdown-name"]</arg>
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-08-29T14:17:03.336611" elapsed="0.899627"/>
+<status status="PASS" start="2025-09-01T13:08:15.590004" elapsed="0.051797"/>
+</kw>
+<kw name="Click" owner="Browser">
+<msg time="2025-09-01T13:08:15.642680" level="INFO">Clicks the element 'text=Logout'.</msg>
+<arg>text=Logout</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-09-01T13:08:15.642164" elapsed="0.951772"/>
 </kw>
 <kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-08-29T14:17:04.522220" level="INFO">Waited for Element with selector text=Employee Information at state visible</msg>
-<arg>text=Employee Information</arg>
-<arg>visible</arg>
-<tag>PageContent</tag>
-<tag>Wait</tag>
-<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-08-29T14:17:04.236480" elapsed="0.285902"/>
-</kw>
-<status status="PASS" start="2025-08-29T14:17:03.336179" elapsed="1.186322"/>
-</kw>
-<kw name="Add Employee" owner="PIMPage">
-<kw name="Click" owner="Browser">
-<msg time="2025-08-29T14:17:04.523738" level="INFO">Clicks the element 'text=Add Employee'.</msg>
-<arg>text=Add Employee</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-08-29T14:17:04.523281" elapsed="0.501013"/>
-</kw>
-<kw name="Fill Text" owner="Browser">
-<msg time="2025-08-29T14:17:05.026288" level="INFO">Fills the text 'John' in the given field.</msg>
-<arg>input[name="firstName"]</arg>
-<arg>John</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-08-29T14:17:05.025167" elapsed="0.286853"/>
-</kw>
-<kw name="Fill Text" owner="Browser">
-<msg time="2025-08-29T14:17:05.312978" level="INFO">Fills the text 'Doe' in the given field.</msg>
-<arg>input[name="lastName"]</arg>
-<arg>Doe</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-08-29T14:17:05.312244" elapsed="0.018167"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2025-08-29T14:17:05.331527" level="INFO">Clicks the element 'button:has-text("Save")'.</msg>
-<arg>button:has-text("Save")</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-08-29T14:17:05.330679" elapsed="0.283919"/>
-</kw>
-<kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-08-29T14:17:10.090118" level="INFO">Waited for Element with selector h6:has-text("Personal Details") at state visible</msg>
-<arg>h6:has-text("Personal Details")</arg>
-<arg>visible</arg>
-<tag>PageContent</tag>
-<tag>Wait</tag>
-<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-08-29T14:17:05.614820" elapsed="4.475451"/>
-</kw>
-<status status="PASS" start="2025-08-29T14:17:04.522887" elapsed="5.567805"/>
-</kw>
-<kw name="Close OrangeHRM" owner="Browser" type="TEARDOWN">
-<kw name="Close Browser" owner="Browser">
-<msg time="2025-08-29T14:17:10.541295" level="INFO">Closed browser</msg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-08-29T14:17:10.091623" elapsed="0.449909"/>
-</kw>
-<status status="PASS" start="2025-08-29T14:17:10.091197" elapsed="0.450503"/>
-</kw>
-<status status="PASS" start="2025-08-29T14:16:56.252458" elapsed="14.289641"/>
-</test>
-<status status="PASS" start="2025-08-29T14:16:56.065750" elapsed="14.480897"/>
-</suite>
-<suite id="s1-s2" name="Login Test" source="C:\Users\user\Documents\orange\robot-orangehrm\robot-orangehrm\tests\login_test.robot">
-<test id="s1-s2-t1" name="Login Successfully" line="6">
-<kw name="Login With Valid Credentials" owner="LoginPage">
-<kw name="Open OrangeHRM" owner="Browser">
-<kw name="New Browser" owner="Browser">
-<msg time="2025-08-29T14:17:10.611043" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\user\\Documents\\orange\\robot-orangehrm\\robot-orangehrm\\browser\\traces\\temp\\445afe16-6fa5-48d6-8603-073ff9fcc713"}</msg>
-<msg time="2025-08-29T14:17:10.939141" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\user\\Documents\\orange\\robot-orangehrm\\robot-orangehrm\\browser\\traces\\temp\\445afe16-6fa5-48d6-8603-073ff9fcc713"}</msg>
-<arg>chromium</arg>
-<arg>headless=${false}</arg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2025-08-29T14:17:10.609861" elapsed="0.329610"/>
-</kw>
-<kw name="New Context" owner="Browser">
-<msg time="2025-08-29T14:17:10.942166" level="INFO">{
-  "acceptDownloads": true,
-  "bypassCSP": false,
-  "forcedColors": "none",
-  "ignoreHTTPSErrors": false,
-  "javaScriptEnabled": true,
-  "offline": false,
-  "reducedMotion": "no-preference",
-  "serviceWorkers": "allow",
-  "viewport": {
-    "height": 720,
-    "width": 1280
-  }
-}</msg>
-<msg time="2025-08-29T14:17:10.956820" level="INFO">Successfully created context. </msg>
-<msg time="2025-08-29T14:17:10.956954" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Create a new BrowserContext with specified options.</doc>
-<status status="PASS" start="2025-08-29T14:17:10.939832" elapsed="0.017303"/>
-</kw>
-<kw name="New Page" owner="Browser">
-<msg time="2025-08-29T14:17:14.029467" level="INFO">Successfully initialized new page object and opened url: https://opensource-demo.orangehrmlive.com</msg>
-<arg>${URL}</arg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Open a new Page.</doc>
-<status status="PASS" start="2025-08-29T14:17:10.957462" elapsed="3.072284"/>
-</kw>
-<kw name="Set Browser Timeout" owner="Browser">
-<arg>10s</arg>
-<tag>Config</tag>
-<tag>Setter</tag>
-<doc>Sets the timeout used by most input and getter keywords.</doc>
-<status status="PASS" start="2025-08-29T14:17:14.030008" elapsed="0.001032"/>
-</kw>
-<status status="PASS" start="2025-08-29T14:17:10.609513" elapsed="3.421620"/>
-</kw>
-<kw name="Fill Text" owner="Browser">
-<msg time="2025-08-29T14:17:14.031659" level="INFO">Fills the text 'Admin' in the given field.</msg>
+<msg time="2025-09-01T13:08:16.883764" level="INFO">Waited for Element with selector input[name="username"] at state visible</msg>
 <arg>input[name="username"]</arg>
-<arg>${USERNAME}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-08-29T14:17:14.031242" elapsed="0.888651"/>
-</kw>
-<kw name="Fill Text" owner="Browser">
-<msg time="2025-08-29T14:17:14.920945" level="INFO">Fills the text 'admin123' in the given field.</msg>
-<arg>input[name="password"]</arg>
-<arg>${PASSWORD}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-08-29T14:17:14.920092" elapsed="0.015700"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2025-08-29T14:17:14.936996" level="INFO">Clicks the element 'button[type="submit"]'.</msg>
-<arg>button[type="submit"]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-08-29T14:17:14.936091" elapsed="0.896060"/>
-</kw>
-<kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-08-29T14:17:16.172452" level="INFO">Waited for Element with selector h6:has-text("Dashboard") at state visible</msg>
-<arg>h6:has-text("Dashboard")</arg>
 <arg>visible</arg>
 <tag>PageContent</tag>
 <tag>Wait</tag>
 <doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-08-29T14:17:15.832406" elapsed="0.340210"/>
+<status status="PASS" start="2025-09-01T13:08:16.594336" elapsed="0.289591"/>
 </kw>
-<status status="PASS" start="2025-08-29T14:17:10.609053" elapsed="5.563686"/>
-</kw>
-<kw name="Close OrangeHRM" owner="Browser" type="TEARDOWN">
-<kw name="Close Browser" owner="Browser">
-<msg time="2025-08-29T14:17:16.513884" level="INFO">Closed browser</msg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-08-29T14:17:16.173620" elapsed="0.340428"/>
-</kw>
-<status status="PASS" start="2025-08-29T14:17:16.173189" elapsed="0.340962"/>
-</kw>
-<status status="PASS" start="2025-08-29T14:17:10.605742" elapsed="5.908656"/>
+<msg time="2025-09-01T13:08:16.899925" level="INFO">Switching context to context=c2d9d33e-0527-45a6-ae64-9b5c051e283c in CURRENT</msg>
+<msg time="2025-09-01T13:08:16.910769" level="INFO">Successfully changed active context: context=c2d9d33e-0527-45a6-ae64-9b5c051e283c</msg>
+<msg time="2025-09-01T13:08:16.921097" level="INFO">Successfully closed Context</msg>
+<doc>Realiza logout do sistema</doc>
+<status status="PASS" start="2025-09-01T13:08:06.771868" elapsed="10.112583"/>
 </test>
-<status status="PASS" start="2025-08-29T14:17:10.596812" elapsed="5.920384"/>
-</suite>
-<suite id="s1-s3" name="Search Employee Test" source="C:\Users\user\Documents\orange\robot-orangehrm\robot-orangehrm\tests\search_employee_test.robot">
-<test id="s1-s3-t1" name="Search For Employee" line="7">
-<kw name="Login With Valid Credentials" owner="LoginPage">
-<kw name="Open OrangeHRM" owner="Browser">
-<kw name="New Browser" owner="Browser">
-<msg time="2025-08-29T14:17:16.565843" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\user\\Documents\\orange\\robot-orangehrm\\robot-orangehrm\\browser\\traces\\temp\\8e50cacf-8fea-4b8c-9ac6-e60e343dfb46"}</msg>
-<msg time="2025-08-29T14:17:16.891008" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\user\\Documents\\orange\\robot-orangehrm\\robot-orangehrm\\browser\\traces\\temp\\8e50cacf-8fea-4b8c-9ac6-e60e343dfb46"}</msg>
-<arg>chromium</arg>
-<arg>headless=${false}</arg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Create a new playwright Browser with specified options.</doc>
-<status status="PASS" start="2025-08-29T14:17:16.565219" elapsed="0.326067"/>
-</kw>
-<kw name="New Context" owner="Browser">
-<msg time="2025-08-29T14:17:16.893961" level="INFO">{
-  "acceptDownloads": true,
-  "bypassCSP": false,
-  "forcedColors": "none",
-  "ignoreHTTPSErrors": false,
-  "javaScriptEnabled": true,
-  "offline": false,
-  "reducedMotion": "no-preference",
-  "serviceWorkers": "allow",
-  "viewport": {
-    "height": 720,
-    "width": 1280
-  }
-}</msg>
-<msg time="2025-08-29T14:17:16.910886" level="INFO">Successfully created context. </msg>
-<msg time="2025-08-29T14:17:16.911041" level="INFO">{'acceptDownloads': True, 'bypassCSP': False, 'forcedColors': 'none', 'ignoreHTTPSErrors': False, 'javaScriptEnabled': True, 'offline': False, 'reducedMotion': 'no-preference', 'serviceWorkers': 'allow', 'viewport': {'height': 720, 'width': 1280}}</msg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Create a new BrowserContext with specified options.</doc>
-<status status="PASS" start="2025-08-29T14:17:16.891638" elapsed="0.019762"/>
-</kw>
-<kw name="New Page" owner="Browser">
-<msg time="2025-08-29T14:17:20.196454" level="INFO">Successfully initialized new page object and opened url: https://opensource-demo.orangehrmlive.com</msg>
-<arg>${URL}</arg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Open a new Page.</doc>
-<status status="PASS" start="2025-08-29T14:17:16.911716" elapsed="3.285070"/>
-</kw>
-<kw name="Set Browser Timeout" owner="Browser">
-<arg>10s</arg>
-<tag>Config</tag>
-<tag>Setter</tag>
-<doc>Sets the timeout used by most input and getter keywords.</doc>
-<status status="PASS" start="2025-08-29T14:17:20.197057" elapsed="0.001208"/>
-</kw>
-<status status="PASS" start="2025-08-29T14:17:16.564961" elapsed="3.633611"/>
-</kw>
-<kw name="Fill Text" owner="Browser">
-<msg time="2025-08-29T14:17:20.199786" level="INFO">Fills the text 'Admin' in the given field.</msg>
-<arg>input[name="username"]</arg>
-<arg>${USERNAME}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-08-29T14:17:20.198830" elapsed="0.886256"/>
-</kw>
-<kw name="Fill Text" owner="Browser">
-<msg time="2025-08-29T14:17:21.086227" level="INFO">Fills the text 'admin123' in the given field.</msg>
-<arg>input[name="password"]</arg>
-<arg>${PASSWORD}</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-08-29T14:17:21.085428" elapsed="0.020167"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2025-08-29T14:17:21.106536" level="INFO">Clicks the element 'button[type="submit"]'.</msg>
-<arg>button[type="submit"]</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-08-29T14:17:21.105836" elapsed="0.938797"/>
-</kw>
-<kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-08-29T14:17:22.379897" level="INFO">Waited for Element with selector h6:has-text("Dashboard") at state visible</msg>
-<arg>h6:has-text("Dashboard")</arg>
-<arg>visible</arg>
-<tag>PageContent</tag>
-<tag>Wait</tag>
-<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-08-29T14:17:22.044828" elapsed="0.335244"/>
-</kw>
-<status status="PASS" start="2025-08-29T14:17:16.564563" elapsed="5.815629"/>
-</kw>
-<kw name="Search Employee" owner="PIMPage">
-<kw name="Go To PIM" owner="PIMPage">
-<kw name="Click" owner="Browser">
-<msg time="2025-08-29T14:17:22.381878" level="INFO">Clicks the element 'text=PIM'.</msg>
-<arg>text=PIM</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-08-29T14:17:22.381438" elapsed="0.900668"/>
-</kw>
-<kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-08-29T14:17:24.134714" level="INFO">Waited for Element with selector text=Employee Information at state visible</msg>
-<arg>text=Employee Information</arg>
-<arg>visible</arg>
-<tag>PageContent</tag>
-<tag>Wait</tag>
-<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-08-29T14:17:23.282411" elapsed="0.852548"/>
-</kw>
-<status status="PASS" start="2025-08-29T14:17:22.381111" elapsed="1.753986"/>
-</kw>
-<kw name="Fill Text" owner="Browser">
-<msg time="2025-08-29T14:17:24.136091" level="INFO">Fills the text 'John' in the given field.</msg>
-<arg>//label[text()="Employee Name"]/../following-sibling::div//input</arg>
-<arg>John</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Clears and fills the given ``txt`` into the text field found by ``selector``.</doc>
-<status status="PASS" start="2025-08-29T14:17:24.135231" elapsed="0.103460"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2025-08-29T14:17:24.239984" level="INFO">Clicks the element 'button:has-text("Search")'.</msg>
-<arg>button:has-text("Search")</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-08-29T14:17:24.239093" elapsed="0.052109"/>
-</kw>
-<kw name="Click" owner="Browser">
-<msg time="2025-08-29T14:17:24.292066" level="INFO">Clicks the element 'text=John Doe &gt;&gt; nth=0'.</msg>
-<arg>text=John Doe &gt;&gt; nth=0</arg>
-<tag>PageContent</tag>
-<tag>Setter</tag>
-<doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" start="2025-08-29T14:17:24.291408" elapsed="0.699853"/>
-</kw>
-<kw name="Wait For Elements State" owner="Browser">
-<msg time="2025-08-29T14:17:25.923939" level="INFO">Waited for Element with selector text=John Doe &gt;&gt; nth=0 at state visible</msg>
-<arg>text=John Doe &gt;&gt; nth=0</arg>
-<arg>visible</arg>
-<tag>PageContent</tag>
-<tag>Wait</tag>
-<doc>Waits for the element found by ``selector`` to satisfy state option.</doc>
-<status status="PASS" start="2025-08-29T14:17:24.991714" elapsed="0.932392"/>
-</kw>
-<status status="PASS" start="2025-08-29T14:17:22.380609" elapsed="3.543610"/>
-</kw>
-<kw name="Close OrangeHRM" owner="Browser" type="TEARDOWN">
-<kw name="Close Browser" owner="Browser">
-<msg time="2025-08-29T14:17:26.299105" level="INFO">Closed browser</msg>
-<tag>BrowserControl</tag>
-<tag>Setter</tag>
-<doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-08-29T14:17:25.925049" elapsed="0.374281"/>
-</kw>
-<status status="PASS" start="2025-08-29T14:17:25.924663" elapsed="0.374817"/>
-</kw>
-<status status="PASS" start="2025-08-29T14:17:16.562432" elapsed="9.737249"/>
-</test>
-<status status="PASS" start="2025-08-29T14:17:16.555266" elapsed="9.747540"/>
-</suite>
-<status status="PASS" start="2025-08-29T14:16:56.036329" elapsed="30.304528"/>
+<status status="PASS" start="2025-09-01T13:08:06.567080" elapsed="10.355395"/>
 </suite>
 <statistics>
 <total>
-<stat pass="3" fail="0" skip="0">All Tests</stat>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Tests" id="s1" pass="3" fail="0" skip="0">Tests</stat>
-<stat name="Add Employee Test" id="s1-s1" pass="1" fail="0" skip="0">Tests.Add Employee Test</stat>
-<stat name="Login Test" id="s1-s2" pass="1" fail="0" skip="0">Tests.Login Test</stat>
-<stat name="Search Employee Test" id="s1-s3" pass="1" fail="0" skip="0">Tests.Search Employee Test</stat>
+<stat name="Login Test" id="s1" pass="1" fail="0" skip="0">Login Test</stat>
 </suite>
 </statistics>
 <errors>
